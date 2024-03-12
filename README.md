@@ -11,3 +11,15 @@
 - haarcascade_frontalface_default.xml - คือ
 - Real-time_Emotion_Detector_for_driving - คือไฟล์สไลด์นำเสนอ
 - Report - ไฟล์รายงาน
+---
+# ขั้นตอนการรัน
+1. ตรวจสอบก่อนว่าสามารถนำ GPU มาประมวลผลได้มั้ย
+2. กรณีที่ไม่มีหรือไม่สามารถใช้ได้ให้รันโค้ดนี้แทนโค้ดเดียว 
+``` python
+import os
+    os.environ['CUDA_VISIBLE_DEVICES'] = '-1' 
+```
+3. Import library ที่ใช้งานทั้งหมดเข้ามา
+4. ทำการ Set_seed
+5. Import รูปภาพจาก Dataset ที่เราเก็บมา
+6. 
