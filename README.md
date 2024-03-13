@@ -6,7 +6,7 @@
 ---
 
 # รายละเอียดไฟล์ต่างๆ
-- dataset.zip - คือไฟล์ Dataset ที่เก็บรวบรวมมา
+- data.zip - คือไฟล์ Dataset ที่เก็บรวบรวมมา
 - profectFile.ipynb - คือไฟล์โค้ดของโมเดล
 - haarcascade_frontalface_default.xml - คือ ไฟล์ที่สร้างตัขึ้นเพื่อจับใบหน้าจากวีดีโอ
 - Real-time_Emotion_Detector_for_driving - คือไฟล์สไลด์นำเสนอ
