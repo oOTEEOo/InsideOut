@@ -8,7 +8,7 @@
 # รายละเอียดไฟล์ต่างๆ
 - dataset.zip - คือไฟล์ Dataset ที่เก็บรวบรวมมา
 - profectFile.ipynb - คือไฟล์โค้ดของโมเดล
-- haarcascade_frontalface_default.xml - คือ
+- haarcascade_frontalface_default.xml - คือ ไฟล์ที่สร้างตัขึ้นเพื่อจับใบหน้าจากวีดีโอ
 - Real-time_Emotion_Detector_for_driving - คือไฟล์สไลด์นำเสนอ
 - Report - ไฟล์รายงาน
 ---
@@ -22,4 +22,9 @@ import os
 3. Import library ที่ใช้งานทั้งหมดเข้ามา
 4. ทำการ Set_seed
 5. Import รูปภาพจาก Dataset ที่เราเก็บมา
-6. 
+6. สร้างผลเฉลยให้กับข้อมูลที่รับเข้ามา (Dataset)
+7. ทำการแยกข้อมูล train 80% และ test 20%
+8. ทำการสร้างตัว Neural network
+9. นำ Neural network ที่สร้างขึ้นไปเทรนกับข้อมูล
+10. ทำการ Plot graph และประเมิน Model
+11. นำไปใช้จริง
